@@ -12,12 +12,11 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 	<link href="style.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
 </head>
 
 <body>
 <!-- Navigation -->
-<nav id="home" class= "navbar navbar-expand-md navbar-light  bg-light sticky-top">
+<nav id="home" class= "navbar navbar-expand-md navbar-light  bg-light   fixed-top">
 <div class = "container-fluid">
     <a class = "navbar-brand" href="#">
 		<img style="object-fit:cover;width:50px;height:50px;" src="img\BugBGone-favicon.png">
@@ -28,8 +27,8 @@
     </button>
 	<div class="collapse navbar-collapse" id = "navbarResponsive">
 		<ul class = "navbar-nav ml-auto">
-			<li class = "nav-item active">
-				<a class = "nav-link" href="#home">Home</a>
+			<li class = "nav-item ">
+				<a class = "nav-link active" href="#home">Home</a>
 			</li>
 			<li class = "nav-item">
 				<a class = "nav-link" href="#about">About</a>
@@ -49,7 +48,7 @@
 </nav>
  
 <!--- Image Slider -->
-<div id= "slides" class= "carousel slide" data-ride = "carousel">
+<div id= "slides" class= "carousel carousel-example slide" data-ride = "carousel">
 	<ul class = "carousel-indicators">
 		<li data-target = "#slides" data-slide-to = "0" class ="active"></li>
 		<li data-target = "#slides" data-slide-to = "1" class =""></li>
@@ -59,9 +58,9 @@
 		<div class= "carousel-item active">
 			<img src="img\background.png" class= "img-fluid" >
 			<div class = "carousel-caption">
-				<h1 class = "display-2">Bootstrap</h1>
-				<h3>Complete Website Layout</h3>
-				<button type= "button" class = "btn btn-outline-light btn-lg">View Demo</button>
+				<h1 class = "display-2">BugBGone</h1>
+				<h3>Sample Website Layout</h3>
+				<button type= "button" onclick="window.location.href='https://github.com/stunnerhash/Bootstrap-sample-responsive';" class = "btn btn-outline-light btn-lg">View Code</button>
 				<button type = "button" class = "btn btn-primary btn-lg">Get Started</button>
 			</div>
 		</div>
@@ -155,6 +154,7 @@
 	</div>
 </div>
 </div>
+
 <!--- Fixed background -->
 <figure>
 	<div class="fixed-wrap">
@@ -162,13 +162,15 @@
 		</div>
 	</div>
 </figure>
+
 <!--- Emoji Section -->
 <button class="fun btn btn-sm" data-toggle="collapse" data-target= "#fuck">Click for Fun
 </button>
   <div id="fuck" class="collapse text-center">
-	  <h1 class="display-1"> Fuck You Abhishek</h1>
+	  <h1 class="display-1"> hey there!</h1>
 	  <hr>
   </div>
+
 <!--- Meet the team -->
 <div id="team"class="container-fluid padding">
 <div class="row welcome text-center">
@@ -177,6 +179,7 @@
 	</div>
 </div>
 </div>
+
 <!--- Cards -->
 <div class = "container-fluid padding">
 <div class="row padding">
@@ -184,9 +187,9 @@
 	<div class="card">
 		<img src="img\utkarsh.jpg" alt="" class="card-imd-top">
 		<div class="card-body">
-			<h4 class="card-title">Utkarsh</h4>
-			<p class="card-text">Utkarsh is the founder of BugBGone incoperation</p>
-			<a href="#" class="btn btn-outline-secondary">See Profile</a>
+			<h4 class="card-title">Utkarsh Kumar Singh</h4>
+			<p class="card-text">Utkarsh is the founder of BugBGone incoperation </p>
+			<a href="https://twitter.com/stunnerhash" class="btn btn-outline-secondary">See Profile</a>
 		</div>
 	</div> 
 	</div>
@@ -196,7 +199,7 @@
 		<div class="card-body">
 			<h4 class="card-title">Tommy </h4>
 			<p class="card-text">Tommy is a pet of owned by BugBGone incoperation</p>
-			<a href="#" class="btn btn-outline-secondary"> See Profile </a>
+			<a href="https://myanimelist.net/profile/stunnerhash" class="btn btn-outline-secondary"> See Profile </a>
 		</div>
 	</div>
 	</div> 
@@ -213,6 +216,7 @@
 </div>
 </div>
 <hr class="my-4">
+
 <!--- Two Column Section -->
 <div id="about"class="container-fluid padding">
 <div class="row padding">
@@ -237,11 +241,11 @@
 <div class="row text-center padding">
 	<div class="col-12"><h2>Connnect</h2></div>
 	<div class="col-12 social">
-		<a href="#" class="fab fa-facebook"></a>
-		<a href="#" class="fab fa-twitter"></a>
-		<a href="#" class="fab fa-google-plus-g"></a>
-		<a href="#" class="fab fa-instagram"></a>
-		<a href="#" class="fab fa-youtube"></a>
+		<a  href="https://facebook.com/stunnerhash/"><i class="fab fa-facebook"></i></a>
+		<a href="https://twitter.com/stunnerhash"><i class="fab fa-twitter"></i></a>
+		<a href="https://github.com/stunnerhash" ><i class="fab fa-github"></i></a>
+		<a href="https://instagram.com/stunnerhash/"><i class="fab fa-instagram"></i></a>
+		<a href="https://linkedin.com/in/stunnerhash"><i class="fab fa-linkedin"></i></a>
 	</div>
 </div>
 </div>
@@ -251,8 +255,8 @@
 	<div class="container-fluid padding">
 		<div class="row text-center">
 			<div class="col-md-4">
-				<img style="object-fit:cover;width:50px;height:50px;"  src="img\BugBGone-favicon.png" alt="">
-				<span class = "h5" style="font-family: 'Pacifico', cursive;"> BugBGone</span>
+				<img style="object-fit:cover;width:50px;height:50px;"  src="img\BugBGone-favicon.png" alt="icon">
+				<span class = "h5 " style="font-family: 'Pacifico', cursive;"> BugBGone</span>
 				<hr class="light">
 				<p>888-888-8888</p>
 				<p>email@myemail.com</p>
@@ -278,15 +282,11 @@
 			</div>
 			<div class="col-12">
 				<hr class="light">
-				<h5>&copy; bugbgone</h5>
+				<h5>&copy; BugBGone</h5>
 			</div>
 		</div>
 	</div>
 </footer>
+<script src="index.js"></script>
 </body>
 </html>
-<!-- $("#link").click(function() {
-  $('html, body').animate({
-    scrollTop: $("#element_target").offset().top
-  }, 1000);
-}); -->
