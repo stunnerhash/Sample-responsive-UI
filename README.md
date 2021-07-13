@@ -1,2 +1,4 @@
 # Bootstrap-sample-responsive
-A Sample design for BugBGone website
+Hosted at : https://bugbgone-sample-ui.netlify.app
+<br>
+A bootstrap sample ui design for BugBGone website
